@@ -1,0 +1,17 @@
+Test API - GET https://jsonplaceholder.typicode.com/todos/1
+
+PAS 1: Deschide conexiunea catre URL-ul https://jsonplaceholder.typicode.com/todos/1
+
+PAS 2: Trimite un request de tip GET
+
+PAS 3: Primeste raspunsul serverului
+
+PAS 4: Verifica status code ul raspunsului
+    - daca status code = 200, testul continua
+    - altfel, testul esueaza
+
+PAS 5: Verifica daca in corpul raspunsului exista campul "title"
+    - daca "title" este prezent, testul trece
+    - altfel, testul esueaza
+
+PAS 6: Afisează rezultatul testului (PASSED sau FAILED)

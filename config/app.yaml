@@ -1,0 +1,9 @@
+env: "development"
+
+service:
+  name: "jsonplaceholder-api"
+  baseUrl: "https://jsonplaceholder.typicode.com"
+
+timeouts:
+  connectMs: 1000
+  readMs: 3000
