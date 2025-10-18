@@ -1,1 +1,0 @@
-# qa-final-project-java
