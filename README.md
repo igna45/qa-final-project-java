@@ -1,4 +1,4 @@
-\[!\[CI/CD Pipeline](https://github.com/igna45/qa-final-project-java/actions/workflows/ci.yml/badge.svg)](https://github.com/igna45/qa-final-project-java/actions/workflows/ci.yml)
+\[![CI/CD Pipeline](https://github.com/igna45/qa-final-project-java/actions/workflows/ci.yml/badge.svg)](https://github.com/igna45/qa-final-project-java/actions/workflows/ci.yml)
 
 
 
@@ -31,6 +31,7 @@ Acest proiect arata un flux CI/CD pentru un proiect Java cu Maven si include:
 &nbsp;  - Pentru construirea imaginii Docker se foloseste **docker build -t my-java-project .**
 
 &nbsp;  - Pentru rularea containerului se foloseste **docker run --rm my-java-project**
+
 
 
 
