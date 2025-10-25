@@ -11,6 +11,11 @@
   <name>QA Final Project Java</name>
   <description>Proiect final QA - Maven, Docker, CI/CD</description>
 
+  <properties>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+  </properties>
+
   <build>
     <plugins>
       <plugin>
